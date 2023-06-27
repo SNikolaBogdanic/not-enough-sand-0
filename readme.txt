@@ -1,4 +1,4 @@
-NOT ENOUGH SAND - 1.3.2
+NOT ENOUGH SAND - 1.3.3
 
 A simple mod that grants you the ability to craft gravel, sand and clay from crushed stones.
 
