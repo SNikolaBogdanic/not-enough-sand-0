@@ -1,0 +1,94 @@
+{
+	code: "crushed",
+	heldTpIdleAnimation: "holdbothhands",
+	variantgroups: [
+		{ code: "material", states: ["andesite", "basalt", "chert", "claystone", "conglomerate",
+"granite", "phyllite", "sandstone", "shale", "slate"] },
+	],
+	attributes: {
+		handbook: {
+			groupBy: ["crushed-*"],
+			extraSections: [
+				{ title: "handbooktitle-crushed", text: "handbooktext-crushed" }
+			]
+		},
+		displaycaseable: true, 
+		shelvable: true,
+		dissolveInWater: true,
+		onDisplayTransform: {
+			translation: { x: 0.05, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.65
+		}
+	},
+	shape: { base: "game:item/resource/crushed/crushed" },
+	texture: { base: "item/resource/crushed/{material}" },
+
+	crushingPropsByType: {
+		"*-andesite": {
+			crushedStack: { type: "item", code: "dust-andesite", stacksize: 1 },
+			hardnessTier: 4
+		},
+		"*-basalt": {
+			crushedStack: { type: "item", code: "dust-basalt", stacksize: 1 },
+			hardnessTier: 4
+		},
+		"*-chert": {
+			crushedStack: { type: "item", code: "dust-chert", stacksize: 1 },
+			hardnessTier: 4
+		},
+		"*-claystone": {
+			crushedStack: { type: "item", code: "dust-claystone", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-conglomerate": {
+			crushedStack: { type: "item", code: "dust-conglomerate", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-granite": {
+			crushedStack: { type: "item", code: "dust-granite", stacksize: 1 },
+			hardnessTier: 4
+		},
+		"*-phyllite": {
+			crushedStack: { type: "item", code: "dust-phyllite", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-sandstone": {
+			crushedStack: { type: "item", code: "dust-sandstone", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-slate": {
+			crushedStack: { type: "item", code: "dust-slate", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-shale": {
+			crushedStack: { type: "item", code: "dust-shale", stacksize: 1 },
+			hardnessTier: 3
+		}
+	},
+
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 64,
+	materialDensity: 500,
+	"guiTransform": {
+		"translation": { "x": 3, "y": 1, "z": -25 },
+		"rotation": { "x": 158, "y": 22, "z": 3 },
+		"origin": { "x": 0.29, "y": -0.05, "z": 0.8 },
+		"scale": 2.54
+	},
+	"fpHandTransform": {
+		"rotation": { "x": 54, "y": 91, "z": -31 },
+		"scale": 1.34
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.67, "y": -1.25, "z": -0.8 },
+		"rotation": { "x": 70, "y": 11, "z": -65 },
+		"scale": 0.41
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0.2, "z": 0 },
+		"rotation": { "x": -4, "y": 8, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 1.92
+	}
+}

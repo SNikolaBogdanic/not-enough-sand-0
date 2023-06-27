@@ -1,0 +1,64 @@
+[
+    {
+        "op": "add",
+        "path": "/crushingPropsByType",
+        "value": {
+            "*-andesite": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-andesite", stacksize: 1 },
+                hardnessTier: 2
+            },
+            "*-basalt": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-basalt", stacksize: 1 },
+                hardnessTier: 2
+            },
+            "*-bauxite": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-bauxite", stacksize: 1 },
+                hardnessTier: 1
+            },
+            "*-chert": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-chert", stacksize: 1 },
+                hardnessTier: 2
+            },
+            "*-chalk": {
+                crushedStack: { type: "item", code: "game:lime", stacksize: 1 }
+            },
+            "*-claystone": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-claystone", stacksize: 1 },
+                hardnessTier: 1
+            },
+            "*-conglomerate": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-conglomerate", stacksize: 1 },
+                hardnessTier: 1
+            },
+            "*-limestone": {
+                crushedStack: { type: "item", code: "game:lime", stacksize: 1 }
+            },
+            "*-granite": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-granite", stacksize: 1 },
+                hardnessTier: 2
+            },
+            "*-peridotite": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-peridotite", stacksize: 1 },
+                hardnessTier: 2
+            },
+            "*-phyllite": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-phyllite", stacksize: 1 },
+                hardnessTier: 1
+            },
+            "*-sandstone": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-sandstone", stacksize: 1 },
+                hardnessTier: 1
+            },
+            "*-slate": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-slate", stacksize: 1 },
+                hardnessTier: 1
+            },
+            "*-shale": {
+                crushedStack: { type: "item", code: "notenoughsand:pebbles-shale", stacksize: 1 },
+                hardnessTier: 1
+            }
+        },
+        "file": "game:itemtypes/resource/stone.json",
+        "side": "server"
+    }
+]

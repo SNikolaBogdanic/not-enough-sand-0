@@ -1,0 +1,25 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingPropsByType",
+    "value": {
+      "*-bauxite": {
+        "crushedStack": {
+          "type": "item",
+          "code": "notenoughsand:dust-bauxite",
+          "stacksize": 1
+        },
+        "hardnessTier": 2
+      },
+      "*-peridotite": {
+        "crushedStack": {
+          "type": "item",
+          "code": "notenoughsand:dust-peridotite",
+          "stacksize": 1
+        },
+        "hardnessTier": 2
+      }
+    },
+    "file": "game:itemtypes/resource/crushed/crushed.json"
+  }
+]

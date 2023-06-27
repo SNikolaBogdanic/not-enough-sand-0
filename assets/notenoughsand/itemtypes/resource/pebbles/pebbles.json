@@ -1,0 +1,122 @@
+{
+	code: "pebbles",
+	heldTpIdleAnimation: "holdbothhands",
+	variantgroups: [
+		{ code: "material", states: ["andesite", "limestone", "chalk", "basalt", "bauxite", "chert", "claystone", "conglomerate",
+		"granite", "peridotite", "phyllite", "sandstone", "shale", "slate"] },
+	],
+	attributes: {
+		handbook: {
+			groupBy: ["pebbles-*"],
+			extraSections: [
+				{ title: "handbooktitle-crushed", text: "handbooktext-crushed" }
+			]
+		},
+		displaycaseable: true, 
+		shelvable: true,
+		dissolveInWater: true,
+		onDisplayTransform: {
+			translation: { x: 0.05, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.65
+		}
+	},
+	shape: { base: "item/resource/pebbles" },
+	texture: { base: "game:block/stone/rock/{material}1" },
+	storageFlags: 5,
+	grindingPropsByType: {
+		
+		"*-limestone": {
+			grindedStack: { type: "item", code: "game:lime", stacksize: 1 }
+		},
+		"*-chalk": {
+			grindedStack: { type: "item", code: "game:lime", stacksize: 1 }
+		}
+	},
+
+	crushingPropsByType: {
+		"*-andesite": {
+			crushedStack: { type: "item", code: "crushed-andesite", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-basalt": {
+			crushedStack: { type: "item", code: "crushed-basalt", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-bauxite": {
+			crushedStack: { type: "item", code: "game:crushed-bauxite", stacksize: 1 },
+			hardnessTier: 2
+		},
+		"*-chert": {
+			crushedStack: { type: "item", code: "crushed-chert", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-claystone": {
+			crushedStack: { type: "item", code: "crushed-claystone", stacksize: 1 },
+			hardnessTier: 2
+		},
+		"*-conglomerate": {
+			crushedStack: { type: "item", code: "crushed-conglomerate", stacksize: 1 },
+			hardnessTier: 2
+		},
+		"*-granite": {
+			crushedStack: { type: "item", code: "crushed-granite", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-limonite": {
+			crushedStack: { type: "item", code: "game:lime", stacksize: 1 },
+			hardnessTier: 2
+		},
+		"*-chalk": {
+			crushedStack: { type: "item", code: "game:lime", stacksize: 1 },
+			hardnessTier: 2
+		},
+		"*-peridotite": {
+			crushedStack: { type: "item", code: "game:crushed-peridotite", stacksize: 1 },
+			hardnessTier: 3
+		},
+		"*-phyllite": {
+			crushedStack: { type: "item", code: "crushed-phyllite", stacksize: 1 },
+			hardnessTier: 2
+		},
+		"*-sandstone": {
+			crushedStack: { type: "item", code: "crushed-sandstone", stacksize: 1 },
+			hardnessTier: 2
+		},
+		"*-slate": {
+			crushedStack: { type: "item", code: "crushed-slate", stacksize: 1 },
+			hardnessTier: 2
+		},
+		"*-shale": {
+			crushedStack: { type: "item", code: "crushed-shale", stacksize: 1 },
+			hardnessTier: 2
+		}
+	},
+
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 64,
+	materialDensity: 500,
+	guiTransform: {
+		translation: { x: 0, y: 0, z: -10 },
+		rotation: { x: 171, y: 57, z: -20 },
+		origin: { x: 0.46, y: 0.11, z: 0.39 },
+		scale: 2.64
+	},
+	fpHandTransform: {
+		translation: { x: 0.1, y: 0.16, z: 0 },
+		rotation: { x: 37, y: 77, z: 2 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1.95
+	},
+	tpHandTransform: {
+		translation: { x: -1.53, y: -1.1, z: -0.7 },
+		rotation: { x: 19, y: 26, z: -83 },
+		scale: 0.48
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 3, y: 1, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.65
+	}
+}

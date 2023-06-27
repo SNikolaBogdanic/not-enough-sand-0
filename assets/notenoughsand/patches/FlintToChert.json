@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/crushingProps",
+    "value": {
+      "crushedStack": {
+        "type": "item",
+        "code": "notenoughsand:pebbles-chert",
+        "stacksize": 1
+      },
+      "hardnessTier": 2
+    },
+    "file": "game:itemtypes/resource/flint.json"
+  }
+]

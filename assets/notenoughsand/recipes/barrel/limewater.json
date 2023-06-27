@@ -1,0 +1,8 @@
+{
+	code: "limewater",
+	ingredients: [
+		{ type: "item", code: "waterportion", litres: 4 },
+		{ type: "block", code: "sand-*", quantity: 1, allowedVariants ["limestone", "chalk"] }
+	],
+	output: { type: "item", code: "limewaterportion", litres: 4 }
+}

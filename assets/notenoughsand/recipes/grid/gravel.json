@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "PP	PP",
+	ingredients: {
+		"P": { type: "item", code: "pebbles-*", quantity: 1, name: "pebbles", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "conglomerate", "claystone", "limestone", "granite", "sandstone", "peridotite", "phyllite", "slate"] }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "game:gravel-{pebbles}", quantity: 1 }
+}
