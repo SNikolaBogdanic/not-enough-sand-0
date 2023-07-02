@@ -1,15 +1,14 @@
 {
-	code: "crushed",
+	code: "crushed-ore",
 	heldTpIdleAnimation: "holdbothhands",
 	variantgroups: [
-		{ code: "material", states: ["andesite", "basalt", "chert", "claystone", "conglomerate",
-"granite", "phyllite", "sandstone", "shale", "slate"] },
+		{ code: "material", states: ["andesite", "basalt", "chert", "claystone", "conglomerate", "phyllite", "sandstone", "shale", "slate"] }
 	],
 	attributes: {
 		handbook: {
 			groupBy: ["crushed-*"],
 			extraSections: [
-				{ title: "handbooktitle-crushed", text: "handbooktext-crushed" }
+				{ title: "handbooktitle-crushed-ore", text: "handbooktext-crushed-ore" }
 			]
 		},
 		displaycaseable: true, 
@@ -24,48 +23,17 @@
 	shape: { base: "game:item/resource/crushed/crushed" },
 	texture: { base: "item/resource/crushed/{material}" },
 
-	crushingPropsByType: {
-		"*-andesite": {
-			crushedStack: { type: "item", code: "dust-andesite", stacksize: 1 },
-			hardnessTier: 4
-		},
-		"*-basalt": {
-			crushedStack: { type: "item", code: "dust-basalt", stacksize: 1 },
-			hardnessTier: 4
-		},
-		"*-chert": {
-			crushedStack: { type: "item", code: "dust-chert", stacksize: 1 },
-			hardnessTier: 4
-		},
-		"*-claystone": {
-			crushedStack: { type: "item", code: "dust-claystone", stacksize: 1 },
-			hardnessTier: 3
-		},
-		"*-conglomerate": {
-			crushedStack: { type: "item", code: "dust-conglomerate", stacksize: 1 },
-			hardnessTier: 3
-		},
-		"*-granite": {
-			crushedStack: { type: "item", code: "dust-granite", stacksize: 1 },
-			hardnessTier: 4
-		},
-		"*-phyllite": {
-			crushedStack: { type: "item", code: "dust-phyllite", stacksize: 1 },
-			hardnessTier: 3
-		},
-		"*-sandstone": {
-			crushedStack: { type: "item", code: "dust-sandstone", stacksize: 1 },
-			hardnessTier: 3
-		},
-		"*-slate": {
-			crushedStack: { type: "item", code: "dust-slate", stacksize: 1 },
-			hardnessTier: 3
-		},
-		"*-shale": {
-			crushedStack: { type: "item", code: "dust-shale", stacksize: 1 },
-			hardnessTier: 3
-		}
+	"grindingPropsByType": {
+		"crushed-ore-*": { "groundStack": { "type": "item", "code": "powdered-ore-{material}", "quantity": 2 } }
 	},
+	
+	"crushingPropsByType": {
+		
+		"crushed-ore-*": {
+			"crushedStack": { "type": "item", "code": "powdered-ore-{material}", "stacksize": 2 },
+			"hardnessTier": 1
+		}
+	}
 
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	maxstacksize: 64,

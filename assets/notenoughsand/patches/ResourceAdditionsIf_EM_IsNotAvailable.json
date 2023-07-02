@@ -1,0 +1,75 @@
+[
+    {
+        "file": "itemtypes/resource/crushed/crushed.json",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "granite",
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    },
+    {
+        "file": "itemtypes/resource/dust/dust.json",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "granite",
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    },
+    {
+        "file": "itemtypes/resource/dust/dust.json",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "bauxite",
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    },
+    {
+        "file": "recipes/grid/crushed.json",
+        "op": "add",
+        "path": "/0/ingredients/S/allowedVariants/-",
+        "value": "granite",
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    },
+    {
+        "file": "recipes/grid/sand.json",
+        "op": "add",
+        "path": "/3/ingredients/C/allowedVariants/-",
+        "value": "granite",
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    },
+    {
+        "file": "recipes/grid/powdered.json",
+        "op": "add",
+        "path": "/0/ingredients/S/allowedVariants/-",
+        "value": "granite",
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    },
+    {
+        "file": "recipes/grid/powdered.json",
+        "op": "add",
+        "path": "/1/ingredients/S/allowedVariants/-",
+        "value": "bauxite",
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    },
+    {
+        "file": "compatibility/moreclay/recipes/barrel/clayfromdust.json",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "clayfromdust",
+            "sealHours": 8,
+            "ingredients": [
+                { "type": "item", "code": "game:waterportion", "litres": 1 },
+                { "type": "item", "code": "powdered-ore-*", "quantity": 1, "allowedVariants": ["bauxite"] }
+            ],
+            "output": { "type": "item", "code": "game:clay-red", "stackSize": 1 }
+        },
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    }
+    
+]

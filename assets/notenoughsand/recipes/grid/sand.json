@@ -30,7 +30,7 @@
 	{
 		ingredientPattern: "CC	CC",
 		ingredients: {
-			"C": { type: "item", code: "crushed-*", quantity: 1, name: "crushed", allowedVariants: ["andesite", "chert", "conglomerate", "claystone", "granite", "sandstone", "basalt", "phyllite", "slate", "shale"] }
+			"C": { type: "item", code: "crushed-ore-*", quantity: 1, name: "crushed", allowedVariants: ["andesite", "chert", "conglomerate", "claystone", "sandstone", "basalt", "phyllite", "slate", "shale"] }
 		},
 		width: 2,
 		height: 2,

@@ -1,13 +1,12 @@
 {
-	code: "dust",
+	code: "powdered-ore",
 	heldTpIdleAnimation: "holdbothhands",
 	variantgroups: [
-		{ code: "material", states: ["andesite", "basalt", "bauxite", "chert", "claystone", "conglomerate", "limestone",
-"granite", "peridotite", "phyllite", "sandstone", "shale", "slate"] }
+		{ code: "material", states: ["andesite", "basalt", "chert", "claystone", "conglomerate", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate"] }
 	],
 	attributes: {
 		handbook: {
-			groupBy: ["dust-*"],
+			groupBy: ["powdered-*"],
 			extraSections: [
 				{ title: "handbooktitle-crushed", text: "handbooktext-crushed" }
 			]

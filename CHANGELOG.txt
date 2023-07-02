@@ -1,0 +1,65 @@
+NOT ENOUGH SAND OFFICIAL CHANGELOG
+By ElectroNikkel
+
+
+1.4.0: Saul Goodman Update.
+
+- Added the GNU GENERAL PUBLIC LICENSE file to the mod, binding it to that legality.
+- GitHub backup added. Link here: https://github.com/SNikolaBogdanic/not-enough-sand-0
+- Added CHANGELOG file to keep track of changes more easily.
+- Added compatibility with Expanded Matter Mod (https://mods.vintagestory.at/em)
+
+
+1.3.3: Fix and Flex 1 Update.
+
+- Small visual tweaks.
+- 2 limestone or chalk pebbles gives 2 lime, consuming a single hammer durability.
+- Fixed a bug where you couldn't craft pebbles from stones and a hammer.
+
+
+1.3.2: Pebbles Tweaks Update.
+
+- Added the chance of pebbles dropping from mined rocks and minerals (Albeit not gems, for some reason, I think).
+- Pebbles now can be stored in a Mining Bag.
+- Tweaked the Fire, Red and Brown Clay panning chances (0.6%, 1.5% and 1.5% respectively).
+
+
+1.3.1: Integration 1 Update.
+
+- Now this mod is compatible with "More Clay".( https://mods.vintagestory.at/moreclay ).
+- Added crafting of Red Clay with Bauxite Dust.
+- Added crafting of Brown Clay with Chert Dust.
+- Bauxite cannot be used to craft Fire Clay anymore.
+
+
+1.3.0: Pebbles and Dusts Update.
+
+- Tweaked the recipes for Clay yet again. Now, a single rock dust and a liter of water in a barrel will grant you a unit of blue/fire clay (Depending of the rock) after 8 hours.
+- Shale, slate and phyllite dusts will grant you Blue Clay. Claystone, Sandstone and Bauxite dusts will give you Fire Clay instead.
+- Added Stone Pebbles and Stone Dusts to craft Gravel and Clay (with water) respectively.
+- Crushed Stones can be used to make Sand again directly.
+- Changed the price of Sand and Gravel to 4 Crushed Stone and 4 Pebbles respectively.
+- Shale cannot be grinded now.
+- You can hammer rocks as you would Limestone, consuming 1 durability, but only getting pebbles.
+- You can hammer pebbles to get Crushed Stones.
+- You can hammer crushed rocks to get Dusts.
+- Flint now is considered a Chert stone for crafting purposes.
+- Now, to make Crushed Rocks, you have to pulverize their pebbles first.
+- To make rock dust, pulverize its crushed form using a higher cap tier that the used to make the crushed rock. Or use your Hammer.
+
+
+1.2.0: Limestone Integration Update.
+
+- Limestone sand can be turned to 8 lime and viceversa. Chalk sand can be turned to 8 lime too, but not the other way.
+- Shale, Chalk and Limestone gravel blocks can be turned into sand with the help of a hammer.
+- Shale now can be grinded like limestone.
+- Added the chance of getting Fire Clay when panning (3 times as unlikely as Blue Clay)
+- Tweaked a bit the recipes for Clay.
+
+
+1.1.0: Mann's Brothers Update.
+
+- Added crafting recipes for Gravel Blocks. Replaces the 1.0.0 sand recipe.
+- Changed the crafting recipe for Sand Blocks. To craft them, you will need a hammer on top of the normal recipe.
+- Added the ability to turn Gravel back to Crushed Rock.
+- Now, whole blocks of both Shale or Claystone Sand/Gravel can be used for crafting clay directly.

@@ -1,20 +1,11 @@
 [
 	{
-		code: "clayfromdust",
-		sealHours: 8,
-		ingredients: [
-			{ type: "item", code: "game:waterportion", litres: 1 },
-			{ type: "item", code: "dust-*", quantity: 1, allowedVariants: ["bauxite"] }
+		"code": "clayfromdust",
+		"sealHours": 8,
+		"ingredients": [
+			{ "type": "item", "code": "game:waterportion", "litres": 1 },
+			{ "type": "item", "code": "powdered-ore-*", "quantity": 1, "allowedVariants": ["chert"] }
 		],
-		output: { type: "item", code: "game:clay-red", stackSize: 1 }
-	},
-	{
-		code: "clayfromdust",
-		sealHours: 8,
-		ingredients: [
-			{ type: "item", code: "game:waterportion", litres: 1 },
-			{ type: "item", code: "dust-*", quantity: 1, allowedVariants: ["chert"] }
-		],
-		output: { type: "item", code: "game:clay-brown", stackSize: 1 }
+		"output": { "type": "item", "code": "game:clay-brown", "stackSize": 1 }
 	}
 ]

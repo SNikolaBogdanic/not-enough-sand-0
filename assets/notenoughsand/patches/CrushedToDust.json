@@ -1,25 +1,34 @@
 [
   {
     "op": "add",
-    "path": "/crushingPropsByType",
+    "path": "/grindingPropsByType",
     "value": {
-      "*-bauxite": {
-        "crushedStack": {
-          "type": "item",
-          "code": "notenoughsand:dust-bauxite",
-          "stacksize": 1
-        },
-        "hardnessTier": 2
-      },
       "*-peridotite": {
-        "crushedStack": {
+        "grindedStack": {
           "type": "item",
-          "code": "notenoughsand:dust-peridotite",
-          "stacksize": 1
-        },
-        "hardnessTier": 2
+          "code": "notenoughsand:powdered-ore-peridotite",
+          "stacksize": 2
+        }
       }
     },
-    "file": "game:itemtypes/resource/crushed/crushed.json"
+    "file": "game:itemtypes/resource/crushed/crushed.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/grindingPropsByType",
+    "value": {
+      "*-bauxite": {
+        "grindedStack": {
+          "type": "item",
+          "code": "notenoughsand:powdered-ore-bauxite",
+          "stacksize": 2
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/crushed/crushed.json",
+    "dependsOn": [{ "modid": "em", "invert": true }],
+    "side": "Server"
   }
+  
 ]

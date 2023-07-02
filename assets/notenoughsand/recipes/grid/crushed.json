@@ -2,12 +2,12 @@
 	{
 		ingredientPattern: "S",
 		ingredients: {
-			"S": { type: "block", code: "game:sand-*", quantity: 1, name: "sand", allowedVariants: ["andesite", "chert", "conglomerate", "claystone", "granite", "sandstone", "basalt", "phyllite", "slate", "shale"] }
+			"S": { type: "block", code: "game:sand-*", quantity: 1, name: "sand", allowedVariants: ["andesite", "chert", "conglomerate", "claystone", "sandstone", "basalt", "phyllite", "slate", "shale"] }
 		},
 		shapeless: true,
 		width: 1,
 		height: 1,
-		output: { type: "item", code: "crushed-{sand}", quantity: 4 }
+		output: { type: "item", code: "crushed-ore-{sand}", quantity: 4 }
 	},
 	{
 		ingredientPattern: "S",
@@ -23,10 +23,10 @@
 		ingredientPattern: "H	P",
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
-			"P": { type: "item", code: "pebbles-*" , quantity: 1, name: "pebbles", allowedVariants: ["andesite", "bauxite", "chert", "conglomerate", "claystone", "granite", "sandstone", "basalt", "phyllite", "slate", "shale", "peridotite"] }
+			"P": { type: "item", code: "pebbles-*" , quantity: 1, name: "pebbles", allowedVariants: ["andesite", "bauxite", "chert", "conglomerate", "claystone", "sandstone", "basalt", "phyllite", "slate", "shale", "peridotite"] }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "crushed-{pebbles}", quantity: 1 }
+		output: { type: "item", code: "crushed-ore-{pebbles}", quantity: 1 }
 	}
 ]
