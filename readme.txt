@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 NOT ENOUGH SAND
-=======
-NOT ENOUGH SAND - 1.3.3
->>>>>>> 6783e204b8caa38e556a07798d04e666f4ac04fd
 
 A simple mod that grants you the ability to craft gravel, sand and clay from crushed stones.
 
@@ -23,7 +19,4 @@ A simple mod that grants you the ability to craft gravel, sand and clay from cru
 ♦ ElectroNikkel, the creator of this mod.
 ♦ Catacman of Reddit, whom I am eternally grateful for his donation of a game account to me so I could publish this very mod.
 ♦ raccoon9477 from Discord, that aided me with Compatibility.
-<<<<<<< HEAD
 ♦ TeacupAngel from Discord, that helped me with Remapping.
-=======
->>>>>>> 6783e204b8caa38e556a07798d04e666f4ac04fd
