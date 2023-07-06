@@ -8,7 +8,7 @@
         "side": "Server"
     },
     {
-        "file": "itemtypes/resource/dust/dust.json",
+        "file": "itemtypes/resource/powdered/powdered.json",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "granite",
@@ -16,7 +16,7 @@
         "side": "Server"
     },
     {
-        "file": "itemtypes/resource/dust/dust.json",
+        "file": "itemtypes/resource/powdered/powdered.json",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "bauxite",

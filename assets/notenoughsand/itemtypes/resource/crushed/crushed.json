@@ -8,7 +8,7 @@
 		handbook: {
 			groupBy: ["crushed-*"],
 			extraSections: [
-				{ title: "handbooktitle-crushed-ore", text: "handbooktext-crushed-ore" }
+				{ title: "handbooktitle-crushed", text: "handbooktext-crushed" }
 			]
 		},
 		displaycaseable: true, 
@@ -24,16 +24,17 @@
 	texture: { base: "item/resource/crushed/{material}" },
 
 	"grindingPropsByType": {
-		"crushed-ore-*": { "groundStack": { "type": "item", "code": "powdered-ore-{material}", "quantity": 2 } }
+		"*-*": {
+			"grindedStack": { "type": "item", "code": "powdered-ore-{material}", "stacksize": 2 }
+		}
 	},
-	
+
 	"crushingPropsByType": {
-		
-		"crushed-ore-*": {
-			"crushedStack": { "type": "item", "code": "powdered-ore-{material}", "stacksize": 2 },
+		"*-*": {
+			"crushedStack": { "type": "item", "code": "powdered-ore-{material}", "stacksize": 2},
 			"hardnessTier": 1
 		}
-	}
+	},
 
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	maxstacksize: 64,

@@ -1,6 +1,9 @@
 [ 
     { 
-        "file": "game:config/remaps", "op": "add", "path": "/notenoughsand:v1.4.0", "value": 
+        "file": "game:config/remaps.json",
+        "op": "add",
+        "path": "/notenoughsand:v1.4.0",
+        "value": 
         [
             "/iir remapq notenoughsand:dust-andesite notenoughsand:powdered-ore-andesite force",
             "/iir remapq notenoughsand:dust-basalt notenoughsand:powdered-ore-basalt force",
@@ -27,7 +30,49 @@
             "/iir remapq notenoughsand:crushed-phyllite notenoughsand:crushed-ore-phyllite force",
             "/iir remapq notenoughsand:crushed-sandstone notenoughsand:crushed-ore-sandstone force",
             "/iir remapq notenoughsand:crushed-shale notenoughsand:crushed-ore-shale force",
-            "/iir remapq notenoughsand:crushed-slate notenoughsand:crushed-ore-slate force"
-        ]
+            "/iir remapq notenoughsand:crushed-slate notenoughsand:crushed-ore-slate force",
+            "/iir remapq em:powdered-ore-bauxite notenoughsand:powdered-ore-bauxite force",
+            "/iir remapq em:powdered-ore-granite notenoughsand:powdered-ore-granite force",
+            "/iir remapq em:crushed-ore-granite notenoughsand:crushed-ore-granite force"
+        ],
+        "dependsOn": [{ "modid": "em", "invert": true }],
+        "side": "Server"
+    },
+    { 
+        "file": "game:config/remaps.json",
+        "op": "add",
+        "path": "/notenoughsand:v1.4.0",
+        "value": [
+            "/iir remapq notenoughsand:dust-andesite notenoughsand:powdered-ore-andesite force",
+            "/iir remapq notenoughsand:dust-basalt notenoughsand:powdered-ore-basalt force",
+            "/iir remapq notenoughsand:dust-bauxite em:powdered-ore-bauxite force",
+            "/iir remapq notenoughsand:dust-chert notenoughsand:powdered-ore-chert force",
+            "/iir remapq notenoughsand:dust-claystone notenoughsand:powdered-ore-claystone force",
+            "/iir remapq notenoughsand:dust-conglomerate notenoughsand:powdered-ore-conglomerate force",
+            "/iir remapq notenoughsand:dust-granite em:powdered-ore-granite force",
+            "/iir remapq notenoughsand:dust-limestone notenoughsand:powdered-ore-limestone force",
+            "/iir remapq notenoughsand:dust-peridotite notenoughsand:powdered-ore-peridotite force",
+            "/iir remapq notenoughsand:dust-phyllite notenoughsand:powdered-ore-phyllite force",
+            "/iir remapq notenoughsand:dust-sandstone notenoughsand:powdered-ore-sandstone force",
+            "/iir remapq notenoughsand:dust-shale notenoughsand:powdered-ore-shale force",
+            "/iir remapq notenoughsand:dust-slate notenoughsand:powdered-ore-slate force",
+            "/iir remapq notenoughsand:crushed-andesite notenoughsand:crushed-ore-andesite force",
+            "/iir remapq notenoughsand:crushed-basalt notenoughsand:crushed-ore-basalt force",
+            "/iir remapq notenoughsand:crushed-chert notenoughsand:crushed-ore-chert force",
+            "/iir remapq notenoughsand:crushed-claystone notenoughsand:crushed-ore-claystone force",
+            "/iir remapq notenoughsand:crushed-conglomerate notenoughsand:crushed-ore-conglomerate force",
+            "/iir remapq notenoughsand:crushed-granite em:crushed-ore-granite force",
+            "/iir remapq notenoughsand:crushed-limestone notenoughsand:crushed-ore-limestone force",
+            "/iir remapq notenoughsand:crushed-phyllite notenoughsand:crushed-ore-phyllite force",
+            "/iir remapq notenoughsand:crushed-sandstone notenoughsand:crushed-ore-sandstone force",
+            "/iir remapq notenoughsand:crushed-shale notenoughsand:crushed-ore-shale force",
+            "/iir remapq notenoughsand:crushed-slate notenoughsand:crushed-ore-slate force",
+            "/iir remapq notenoughsand:powdered-ore-bauxite em:powdered-ore-bauxite force",
+            "/iir remapq notenoughsand:powdered-ore-granite em:powdered-ore-granite force",
+            "/iir remapq notenoughsand:crushed-ore-granite em:crushed-ore-granite force"
+        ],
+        "dependsOn": [{ "modid": "em" }],
+        "side": "Server"
     }
+
 ]

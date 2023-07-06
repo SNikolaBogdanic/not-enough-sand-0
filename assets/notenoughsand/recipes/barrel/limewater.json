@@ -1,8 +1,8 @@
 {
 	code: "limewater",
 	ingredients: [
-		{ type: "item", code: "waterportion", litres: 4 },
-		{ type: "block", code: "sand-*", quantity: 1, allowedVariants ["limestone", "chalk"] }
+		{ type: "item", code: "game:waterportion", litres: 4 },
+		{ type: "block", code: "game:sand-*", quantity: 1, allowedVariants: ["limestone", "chalk"] }
 	],
-	output: { type: "item", code: "limewaterportion", litres: 4 }
+	output: { type: "item", code: "game:limewaterportion", litres: 4 }
 }

@@ -4,16 +4,10 @@
 	variantgroups: [
 		{ code: "material", states: ["andesite", "basalt", "chert", "claystone", "conglomerate", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate"] }
 	],
-	attributes: {
-		handbook: {
-			groupBy: ["powdered-*"],
-			extraSections: [
-				{ title: "handbooktitle-crushed", text: "handbooktext-crushed" }
-			]
-		},
-		displaycaseable: true, 
-		shelvable: true,
-		dissolveInWater: true,
+	"attributes": {
+		"displaycaseable": true, 
+		"shelvable": true,
+		"dissolveInWater": true,
 		"onDisplayTransform": {
 			"translation": { "x": 0.05, "y": 0, "z": 0 },
 			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
@@ -30,21 +24,21 @@
 		"rotation": { "x": 70, "y": 11, "z": -65 },
 		"scale": 0.41
     },
-        "fpHandTransform": {
+    "fpHandTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0.15 },
 		"rotation": { "x": -170, "y": 90, "z": -172 },
 		"scale": 1.4
     },
 	"guiTransform": {
 		"translation": { "x": -2, "y": 1, "z": -25 },
-                "rotation": { "x": 158, "y": 28, "z": 3 },
+        "rotation": { "x": 158, "y": 28, "z": 3 },
 		"origin": { "x": 0.29, "y": -0.05, "z": 0.8 },
 		"scale": 2.5
     },
 	"groundTransform": {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 3, y: 1, z: 0 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 2.65
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 3, "y": 1, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.65
 	}
 }

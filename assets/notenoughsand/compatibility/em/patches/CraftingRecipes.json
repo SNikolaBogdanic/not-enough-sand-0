@@ -9,9 +9,9 @@
       },
       "width": 2,
       "height": 2,
-      "output": { "type": "block", "code": "game:sand-{crushed}", "quantity": 1 }
+      "output": { "type": "block", "code": "game:sand-granite", "quantity": 1 }
     },
-    "file": "notenoughsand:recipes/grid/sand.json",
+    "file": "recipes/grid/sand.json",
     "side": "Server"
   },
   {
@@ -21,13 +21,13 @@
       "ingredientPattern": "H	P",
       "ingredients": {
         "H": { "type": "item", "code": "game:hammer-*", "isTool": true },
-        "P": { "type": "item", "code": "notenoughsand:pebbles-granite" , "quantity": 1 }
+        "P": { "type": "item", "code": "pebbles-granite" , "quantity": 1 }
       },
       "width": 1,
       "height": 2,
       "output": { "type": "item", "code": "em:crushed-ore-granite", "quantity": 1 }
     },
-    "file": "notenoughsand:recipes/grid/crushed.json",
+    "file": "recipes/grid/crushed.json",
     "side": "Server"
   },
   {
@@ -43,11 +43,11 @@
       "height": 2,
       "output": { "type": "item", "code": "em:powdered-ore-granite", "quantity": 2 }
     },
-    "file": "notenoughsand:recipes/grid/powdered.json",
+    "file": "recipes/grid/powdered.json",
     "side": "Server"
   },
   {
-    "file": "notenoughsand:compatibility/moreclay/recipes/barrel/clayfromdust.json",
+    "file": "compatibility/moreclay/recipes/barrel/clayfromdust.json",
     "op": "add",
     "path": "/-",
     "value": {

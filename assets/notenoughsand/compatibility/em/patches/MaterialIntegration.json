@@ -3,7 +3,7 @@
     "op": "replace",
     "path": "/crushingPropsByType/*-granite/crushedStack/code",
     "value": "em:crushed-ore-granite",
-    "file": "notenoughsand:itemtypes/resource/pebbles/pebbles.json",
+    "file": "itemtypes/resource/pebbles/pebbles.json",
     "side": "Server"
   },
   {
