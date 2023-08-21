@@ -25,6 +25,34 @@
     "file": "game:itemtypes/resource/crushed/crushed.json",
     "dependsOn": [{ "modid": "em", "invert": true }],
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/*-bauxite",
+    "value": {
+      "crushedStack": {
+        "type": "item",
+        "code": "notenoughsand:powdered-ore-bauxite",
+        "stacksize": 2
+      }
+    },
+    "file": "game:itemtypes/resource/crushed/crushed.json",
+    "dependsOn": [{ "modid": "em", "invert": true }],
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/*-peridotite",
+    "value": {
+      "crushedStack": {
+        "type": "item",
+        "code": "notenoughsand:powdered-ore-*-peridotite",
+        "stacksize": 2
+      }
+    },
+    "file": "game:itemtypes/resource/crushed/crushed.json",
+    "dependsOn": [{ "modid": "em", "invert": true }],
+    "side": "Server"
   }
   
 ]

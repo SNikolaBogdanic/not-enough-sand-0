@@ -3,7 +3,9 @@ By ElectroNikkel
 
 1.4.1: Useful Compatibility Update
 
-- Added compatibility with Useful Stuff (Supresses their sand block from stones. Seriously, that is way too OP).
+- Added compatibility with Useful Stuff (Supresses their sand block from stones pulverizer recipe. Seriously, that was WAY too OP).
+- Fixed the crafting of sand: Now it ACTUALLY uses 4 crushed stuff instead of 8.
+- It also (should) fix the problem where crushing or grinding crushed material do not gives you 2 powdered of the thing.
 
 1.4.0: Saul Goodman Update.
 
