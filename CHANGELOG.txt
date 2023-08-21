@@ -1,6 +1,9 @@
 NOT ENOUGH SAND OFFICIAL CHANGELOG
 By ElectroNikkel
 
+1.4.1: Useful Compatibility Update
+
+- Added compatibility with Useful Stuff (Supresses their sand block from stones. Seriously, that is way too OP).
 
 1.4.0: Saul Goodman Update.
 

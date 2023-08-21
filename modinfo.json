@@ -4,9 +4,9 @@
   "name": "Not Enough Sand",
   "description" : "Allows you to pulverize more rocks and turn them into sand, among other things.",
   "authors": ["ElectroNikkel"],
-  "version": "1.4.0",
+  "version": "1.4.1",
   "dependencies": { 
 	"game": "1.18.0",
 	"survival": "1.18.0"
-  },
+  }
 }
