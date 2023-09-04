@@ -1,0 +1,7 @@
+{
+	"op": "add",
+	"path": "/ingredients/2/allowedVariants/-",
+	"value": "bauxite",
+	"file": "game:recipes/barrel/mortar.json",
+	"side": "Server"
+}

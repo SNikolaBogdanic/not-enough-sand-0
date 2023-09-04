@@ -12,6 +12,7 @@ A simple mod that grants you the ability to craft gravel, sand and clay from cru
 - +10 Pebbles for Gravel crafting.
 - Gravel and Sand can be converted into Pebbles or Crushed Rock respectively, and viceversa.
 - Limestone/Chalk gravel/sand are incredible sources of lime by themselves now.
+- Bauxite Sand now can be used for Mortar Crafting!
 - Compatibility with:
 	- "More Clay" (https://mods.vintagestory.at/moreclay)
 	- "Expanded Matter" (https://mods.vintagestory.at/em)

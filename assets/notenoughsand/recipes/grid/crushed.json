@@ -18,15 +18,5 @@
 		width: 1,
 		height: 1,
 		output: { type: "item", code: "game:crushed-{sand}", quantity: 4 }
-	},
-	{
-		ingredientPattern: "H	P",
-		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true },
-			"P": { type: "item", code: "pebbles-*" , quantity: 1, name: "pebbles", allowedVariants: ["andesite", "bauxite", "chert", "conglomerate", "claystone", "sandstone", "basalt", "phyllite", "slate", "shale", "peridotite"] }
-		},
-		width: 1,
-		height: 2,
-		output: { type: "item", code: "crushed-ore-{pebbles}", quantity: 1 }
 	}
 ]

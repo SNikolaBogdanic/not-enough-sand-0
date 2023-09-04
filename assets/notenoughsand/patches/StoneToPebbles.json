@@ -59,6 +59,6 @@
             }
         },
         "file": "game:itemtypes/resource/stone.json",
-        "side": "server"
+        "side": "Server"
     }
 ]
