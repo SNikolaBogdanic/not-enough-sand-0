@@ -1,22 +1,22 @@
 [
 	{
-		ingredientPattern: "S",
-		ingredients: {
-			"S": { type: "block", code: "game:sand-*", quantity: 1, name: "sand", allowedVariants: ["andesite", "chert", "conglomerate", "claystone", "sandstone", "basalt", "phyllite", "slate", "shale"] }
+		"ingredientPattern": "S",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:sand-*", "quantity": 1, "name": "sand", "allowedVariants": ["andesite", "chert", "conglomerate", "claystone", "sandstone", "basalt", "phyllite", "slate", "shale"] }
 		},
-		shapeless: true,
-		width: 1,
-		height: 1,
-		output: { type: "item", code: "crushed-ore-{sand}", quantity: 4 }
+		"shapeless": true,
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "crushed-{sand}", "quantity": 4 }
 	},
 	{
-		ingredientPattern: "S",
-		ingredients: {
-			"S": { type: "block", code: "game:sand-*", quantity: 1, name: "sand", allowedVariants: ["bauxite", "peridotite"] }
+		"ingredientPattern": "S",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:sand-*", "quantity": 1, "name": "sand", "allowedVariants": ["bauxite", "peridotite"] }
 		},
-		shapeless: true,
-		width: 1,
-		height: 1,
-		output: { type: "item", code: "game:crushed-{sand}", quantity: 4 }
+		"shapeless": true,
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:crushed-{sand}", "quantity": 4 }
 	}
 ]

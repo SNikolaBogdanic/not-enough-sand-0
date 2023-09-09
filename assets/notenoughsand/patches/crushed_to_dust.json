@@ -5,7 +5,7 @@
     "value": {
       "grindedStack": {
         "type": "item",
-        "code": "notenoughsand:powdered-ore-peridotite",
+        "code": "notenoughsand:powdered-peridotite",
         "stacksize": 2
       }
     },
@@ -18,7 +18,7 @@
     "value": {
       "grindedStack": {
         "type": "item",
-        "code": "notenoughsand:powdered-ore-bauxite",
+        "code": "notenoughsand:powdered-bauxite",
         "stacksize": 2
       }
     },
@@ -32,7 +32,7 @@
     "value": {
       "crushedStack": {
         "type": "item",
-        "code": "notenoughsand:powdered-ore-bauxite",
+        "code": "notenoughsand:powdered-bauxite",
         "stacksize": 2
       }
     },
@@ -46,7 +46,7 @@
     "value": {
       "crushedStack": {
         "type": "item",
-        "code": "notenoughsand:powdered-ore-*-peridotite",
+        "code": "notenoughsand:powdered-peridotite",
         "stacksize": 2
       }
     },

@@ -1,32 +1,32 @@
 [
 	{
-		ingredientPattern: "H,S",
-		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true },
-			"S": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chert", "conglomerate", "claystone", "granite", "sandstone", "phyllite", "slate", "shale", "peridotite"] }
+		"ingredientPattern": "H,S",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"S": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["andesite", "basalt", "bauxite", "chert", "conglomerate", "claystone", "granite", "sandstone", "phyllite", "slate", "shale", "peridotite"] }
 		},
-		width: 1,
-		height: 2,
-		output: { type: "item", code: "pebbles-{rock}", quantity: 1 }
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pebbles-{rock}", "quantity": 1 }
 	},
 	{
-		ingredientPattern: "G",
-		ingredients: {
-			"G": { type: "block", code: "game:gravel-*", quantity: 1, name: "gravel", allowedVariants: ["andesite", "basalt", "bauxite", "chert", "conglomerate", "claystone", "granite", "sandstone", "phyllite", "peridotite", "slate", "shale", "limestone", "chalk"] }
+		"ingredientPattern": "G",
+		"ingredients": {
+			"G": { "type": "block", "code": "game:gravel-*", "quantity": 1, "name": "gravel", "allowedVariants": ["andesite", "basalt", "bauxite", "chert", "conglomerate", "claystone", "granite", "sandstone", "phyllite", "peridotite", "slate", "shale", "limestone", "chalk"] }
 		},
-		shapeless: true,
-		width: 1,
-		height: 1,
-		output: { type: "item", code: "pebbles-{gravel}", quantity: 4 }
+		"shapeless": true,
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "pebbles-{gravel}", "quantity": 4 }
 	},
 	{
-		ingredientPattern: "H,F",
-		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true },
-			"F": { type: "item", code: "game:flint" , quantity: 1 }
+		"ingredientPattern": "H,F",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"F": { "type": "item", "code": "game:flint" , "quantity": 1 }
 		},
-		width: 1,
-		height: 2,
-		output: { type: "item", code: "pebbles-chert", quantity: 1 }
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "pebbles-chert", "quantity": 1 }
 	}
 ]

@@ -3,9 +3,9 @@
 		"op": "add",
 		"path": "/dropsByType/*/-",
 		"value": {
-			type: "item", 
-			code: "notenoughsand:pebbles-{rock}", 
-			quantity: { avg: 0.5, var: 0 } 
+			"type": "item", 
+			"code": "notenoughsand:pebbles-{rock}", 
+			"quantity": { "avg": 0.5, "var": 0 } 
 		},
 		"file": "game:blocktypes/stone/rock.json",
 		"side": "Server"
@@ -14,9 +14,9 @@
 		"op": "add",
 		"path": "/dropsByType/*/-",
 		"value": {
-			type: "item", 
-			code: "notenoughsand:pebbles-{rock}", 
-			quantity: { avg: 0.8, var: 0 }
+			"type": "item", 
+			"code": "notenoughsand:pebbles-{rock}", 
+			"quantity": { "avg": 0.8, "var": 0 }
 		},
 		"file": "game:blocktypes/stone/crackedrock.json",
 		"side": "Server"
@@ -24,35 +24,35 @@
 	{
 		"op": "add",
 		"path": "/dropsByType/*/-",
-		"value": { type: "item", code: "notenoughsand:pebbles-{rock}", quantity: { avg: 2, var: 1 } },
+		"value": { "type": "item", "code": "notenoughsand:pebbles-{rock}", "quantity": { "avg": 2, "var": 1 } },
 		"file": "game:blocktypes/stone/ore-ungraded.json",
 		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/dropsByType/*/-",
-		"value": { type: "item", code: "notenoughsand:pebbles-{rock}", quantity: { avg: 2, var: 1 } },
+		"value": { "type": "item", "code": "notenoughsand:pebbles-{rock}", "quantity": { "avg": 2, "var": 1 } },
 		"file": "game:blocktypes/stone/ore-graded.json",
 		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/dropsByType/ore-low-*/-",
-		"value": { type: "item", code: "notenoughsand:pebbles-{rock}", quantity: { avg: 2, var: 1 } },
+		"value": { "type": "item", "code": "notenoughsand:pebbles-{rock}", "quantity": { "avg": 2, "var": 1 } },
 		"file": "game:blocktypes/stone/ore-gem.json",
 		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/dropsByType/ore-medium-*/-",
-		"value": { type: "item", code: "notenoughsand:pebbles-{rock}", quantity: { avg: 2, var: 1 } },
+		"value": { "type": "item", "code": "notenoughsand:pebbles-{rock}", "quantity": { "avg": 2, "var": 1 } },
 		"file": "game:blocktypes/stone/ore-gem.json",
 		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/dropsByType/ore-high-*/-",
-		"value": { type: "item", code: "notenoughsand:pebbles-{rock}", quantity: { avg: 2, var: 1 } },
+		"value": { "type": "item", "code": "notenoughsand:pebbles-{rock}", "quantity": { "avg": 2, "var": 1 } },
 		"file": "game:blocktypes/stone/ore-gem.json",
 		"side": "Server"
 	}

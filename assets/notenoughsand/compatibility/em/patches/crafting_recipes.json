@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "CC	CC",
+      "ingredients": {
+        "C": { "type": "item", "code": "em:crushed-ore-granite", "quantity": 1 }
+      },
+      "width": 2,
+      "height": 2,
+      "output": { "type": "block", "code": "game:sand-granite", "quantity": 1 }
+    },
+    "file": "recipes/grid/sand.json",
+    "side": "Server"
+  },
+  {
+    "file": "compatibility/moreclay/recipes/barrel/clayfromdust2.json",
+    "op": "replace",
+    "path": "/1/ingredients/1/code",
+    "value": "em:powdered-ore-bauxite",
+    "side": "Server"
+  }
+]

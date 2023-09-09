@@ -1,23 +1,23 @@
 [
 	{
-		ingredientPattern: "L",
-		ingredients: {
-			"L": { type: "block", code: "game:sand-*", allowedVariants: ["limestone", "chalk"] , quantity: 1 }
+		"ingredientPattern": "L",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:sand-*", "allowedVariants": ["limestone", "chalk"] , "quantity": 1 }
 		},
-		shapeless: true,
-		width: 1,
-		height: 1,
-		output: { type: "item", code: "game:lime", quantity: 4 }
+		"shapeless": true,
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:lime", "quantity": 4 }
 	},
 	{
-		ingredientPattern: "H	P",
-		ingredients: {
-			"H": { type: "item", code: "game:hammer-*", isTool: true },
-			"P": { type: "item", code: "pebbles-*", allowedVariants: ["limestone", "chalk"] , quantity: 2 }
+		"ingredientPattern": "H	P",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"P": { "type": "item", "code": "pebbles-*", "allowedVariants": ["limestone", "chalk"] , "quantity": 2 }
 		},
-		shapeless: true,
-		width: 1,
-		height: 1,
-		output: { type: "item", code: "game:lime", quantity: 2 }
+		"shapeless": true,
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:lime", "quantity": 2 }
 	}
 ]

@@ -1,26 +1,23 @@
 [
     {
         "file": "itemtypes/resource/crushed/crushed.json",
-        "op": "add",
-        "path": "/variantgroups/0/states/-",
-        "value": "granite",
-        "dependsOn": [{ "modid": "em", "invert": true }],
+        "op": "remove",
+        "path": "/variantgroups/0/states/5",
+        "dependsOn": [{ "modid": "em" }],
         "side": "Server"
     },
     {
         "file": "itemtypes/resource/powdered/powdered.json",
-        "op": "add",
-        "path": "/variantgroups/0/states/-",
-        "value": "granite",
-        "dependsOn": [{ "modid": "em", "invert": true }],
+        "op": "remove",
+        "path": "/variantgroups/0/states/7",
+        "dependsOn": [{ "modid": "em" }],
         "side": "Server"
     },
     {
         "file": "itemtypes/resource/powdered/powdered.json",
-        "op": "add",
-        "path": "/variantgroups/0/states/-",
-        "value": "bauxite",
-        "dependsOn": [{ "modid": "em", "invert": true }],
+        "op": "remove",
+        "path": "/variantgroups/0/states/1",
+        "dependsOn": [{ "modid": "em" }],
         "side": "Server"
     },
     {
@@ -57,18 +54,10 @@
     },
     {
         "file": "compatibility/moreclay/recipes/barrel/clayfromdust.json",
-        "op": "add",
-        "path": "/-",
-        "value": {
-            "code": "clayfromdust",
-            "sealHours": 8,
-            "ingredients": [
-                { "type": "item", "code": "game:waterportion", "litres": 1 },
-                { "type": "item", "code": "powdered-ore-*", "quantity": 1, "allowedVariants": ["bauxite"] }
-            ],
-            "output": { "type": "item", "code": "game:clay-red", "stackSize": 1 }
-        },
-        "dependsOn": [{ "modid": "em", "invert": true }],
+        "op": "replace",
+        "path": "/1/ingredients/1/code",
+        "value": "em:powdered-ore*",
+        "dependsOn": [{ "modid": "em" }],
         "side": "Server"
     }
     

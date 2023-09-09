@@ -1,6 +1,16 @@
 NOT ENOUGH SAND OFFICIAL CHANGELOG
 By ElectroNikkel
 
+1.5.0: Barrel Busting Update
+
+- Rearranged the code a bit.
+- Renamed "crushed-ore"s to "crushed" and "powdered-ore" to "powdered".
+- Removed a bug where clicking in a missing texture on a Handbook's Clay Barrel Crafting caused the game to crash.
+- Other pinpoint fixes (Compatibility still holding legacy craftings)
+- Pebbles visual display changed again. Get used to this.
+- Nerfed the Clay Crafting. Now you will need more water per barrel run.
+
+
 1.4.2: BauFixes Update
 
 - Removed the crushed to powdered grid recipe
