@@ -3,8 +3,8 @@
 		"code": "brownclayfromdust",
 		"sealHours": 8,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 2 , "consumelitres": 1},
-			{ "type": "item", "code": "powdered-chert", "quantity": 1 }
+			{ "type": "item", "code": "game:waterportion", "litres": 5 , "consumelitres": 2 },
+			{ "type": "item", "code": "powdered-chert", "quantity": 2 }
 		],
 		"output": { "type": "item", "code": "game:clay-brown", "stackSize": 1 }
 	},
@@ -12,8 +12,8 @@
 		"code": "redclayfromdust",
 		"sealHours": 8,
 		"ingredients": [
-			{ "type": "item", "code": "game:waterportion", "litres": 2 , "consumelitres": 1},
-			{ "type": "item", "code": "powdered-bauxite", "quantity": 1 }
+			{ "type": "item", "code": "game:waterportion", "litres": 5 , "consumelitres": 2},
+			{ "type": "item", "code": "powdered-bauxite", "quantity": 2 }
 		],
 		"output": { "type": "item", "code": "game:clay-red", "stackSize": 1 }
 	}
